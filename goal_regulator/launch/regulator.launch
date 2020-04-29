@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<launch>
+	<node name = "rqt_dashboard" pkg = "rqt_gui" type = "rqt_gui" respawn = "false" output = "screen" args = "-s reconfigure"/>
+	<node pkg="goal_regulator" name="pid_control_dynamic" type="pid_control_dynamic.py" output="screen" />
+	<node pkg="dynamic_reconf" name="listener" type="dynamic_server.py" output="screen" />
+	<node pkg="goal_regulator" name="field_publisher_class" type="field_publisher_class.py" output="screen" />
+</launch>
