@@ -1,6 +1,6 @@
 # mavros_drone
 This work uses an Electric Field Potential to avoid obstacle for a mavros drone that that is set to move to a desired location.
-The code was also implemented on real hardware and it works perfectly. The paramaters (force and tolerance) in the potetial field can be adjusted as desired.
+The code was also implemented on real hardware and it works as expected. The paramaters (force and tolerance) in the potetial field can be adjusted as desired.
 #  How to Run
 
 Clone the Repo in catkin workspace
